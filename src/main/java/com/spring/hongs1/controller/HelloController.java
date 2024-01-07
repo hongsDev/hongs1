@@ -13,9 +13,15 @@ public class HelloController {
 
     }
 
-    @GetMapping("/helloIndex")
-    public String hello2(){
-        return "helloIndex";
+    @GetMapping("/index")
+    public String hello2() {
+        return "index";
 
     }
+
+    @GetMapping("/hello3")
+    public String hello3(){
+        return "hello";
+    }
+
 }
